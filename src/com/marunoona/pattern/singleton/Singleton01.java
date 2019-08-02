@@ -1,9 +1,9 @@
 package com.marunoona.pattern.singleton;
 
-public enum SingletonTest01 {
+public enum Singleton01 {
     INSTANCE;
 
-    public static SingletonTest01 getInstance(){
+    public static Singleton01 getInstance(){
         return INSTANCE;
     }
 }
