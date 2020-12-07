@@ -7,7 +7,7 @@ package com.marunoona.pattern.singleton;
 public class Singleton04 {
     private static Singleton04 instance;
 
-    private Singleton04(){s}
+    private Singleton04(){}
 
     public static synchronized Singleton04 getInstance(){
         if(instance == null){
